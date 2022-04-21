@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Images/origami-bird.png">
-    <link rel="stylesheet" href="CSS/portfolio.css">
+    <link rel="stylesheet" href="css/portfolio.css">
     <title>Alp Niksarli</title>
 </head>
 <body>
     <nav>
         <div class="navbar">
             <div class="img">
-                <img src="Images/alp.png" alt="my photo">
+                <img src="Images/alp.png" alt="Alp Niksarli">
             </div>
             <div class="navlist">
                 <ul>
                     <li><a id="aboutlink" class="active" href="#about">About</a></li>
                     <li><a id="educationlink" href="#education">Education</a></li>
-                    <li><a id="skillslink" href="#skills">Skills</a></li>
-                    <li><a id="interestslink" href="#interests">Interests</a></li>
+                    <li><a id="experiencelink" href="#experience">Experience</a></li>
+                    <li><a id="skillslink" href="#skills">Skills/Languages</a></li>
+                    <li><a id="skillslink" href="#projects">Projects</a></li>
                 </ul>
             </div>
             <div class="contact">
-                <a href="mailto:alp.niksarli@gmail.com">Contact Me</a>
+                <a download="alp-niksarli-cv" href="cv.pdf">Download CV</a>
             </div>
         </div>
     </nav>
@@ -30,8 +31,8 @@
         <section class="about" id="about">
             <div class="container">
                 <h1 class="name"><span style="color: black;" class="surname">Alp</span> Niksarli</h1>
-                <p class="address" style="font-size: 23px;">Istanbul, Besiktas - <span style="color: gainsboro;">90 553 555 55 55</span> - alp.niksarli@gmail.com</p>
-                <p class="aboutme" style="padding-top: 17px;">I am a high school student studying in Robert College. I am interested in creating artificial intelligence models using Python. I also have used libraries such as Pandas and BeautifulSoup for <a target="_blank" href="https://github.com/alpnix/Data-Mining">scraping data from the web</a>, analysing those data and <a target="blank" href="https://github.com/alpnix/Data-Visualization">visualizing the data</a>. Additionally, I enjoy developing web applications especially, I have experience in Django and Express frameworks for building backends of the web applications. Furthermore, I like developing <a target="_blank" href="https://github.com/alpnix/Chrome-Extensions">Chrome Extensions</a>, <a target="_blank" href="https://github.com/alpnix/scrapista">Python packages</a> or desktop applications using <a target="_blank" href="https://github.com/alpnix/Beginner-Kivy">Kivy</a> or <a target="_blank" href="https://github.com/alpnix/Beginner-Tkinter">Tkinter</a>.</p>
+                <p class="address" style="font-size: 23px;">Istanbul, Besiktas - <span style="color: #ACA9A9;">+90 553 017 44 44</span> - <a href="mailto:alp.niksarli@gmail.com">alp.niksarli@gmail.com</a></p>
+                <p class="aboutme" style="padding-top: 17px;">I'm a junior Robert College student, interested in full stack development and entrepreneurship. I aim to develop a tech based product that will have a positive impact in many lives.</p>
                 <div class="social-icons">
                     <a target="_blank" href="https://www.linkedin.com/in/alp-niksarli-943a75206/"><button><img  src="Images/linkedin.png" alt="face"></button></a>
                     <a target="_blank" href="https://github.com/alpnix"><button><img src="Images/github.png" alt=""></button></a>
@@ -42,21 +43,36 @@
         <section class="education" id="education">
             <div class="container">
                 <h1>Education</h1>
-                <div class="terakki">
-                    <h2>Sisli Terakki <span style="float: right; color: #00ff00; font-size: 20px;margin-right: 35px;">2012-2018</span></h2>
-                    <h3>Besiktas, Levent</h3>
-                    <em>GPA: <span style="color: gainsboro;">4.00</span></em>
-                </div>
-                <div class="robert">
-                    <h2>Robert College <span style="float: right; color: #00ff00; font-size: 20px;margin-right: 35px;">2018-2023</span></h2>
+                <div class="robert block">
+                    <h2>Robert College <span class="date">2018-2023</span></h2>
                     <h3>Besiktas, Ulus</h3>
-                    <em>GPA: <span style="color: gainsboro;">4.00</span></em>
+                    <p>Activities and socities: <span style="color: grey;">RC Web Development Club, RC Makers, RC Artificial Intelligence Club, RC Table Tennis Team, Volunteering</span></p>
+                </div>
+                <div class="terakki block">
+                    <h2>Sisli Terakki <span class="date">2012-2018</span></h2>
+                    <h3>Besiktas, Levent</h3>
+                    <p>Activities and socities: <span style="color: grey;">Table Tennis Team</span></p>
+                </div>
+            </div>
+        </section>
+        <section class="experience" id="experience">
+            <div class="container">
+                <h1>Experience</h1>
+                <div class="fiverr block">
+                    <h2>Python Developer Freelancer <span class="date">October 2021 - Present</span></h2>
+                    <h3><a target="_blank" href="https://www.fiverr.com/alpnix">Fiverr</a></h3>
+                    <p class="explanation">I have worked with over 50 clients and successfully completed 100+ of projects, getting a 5 star review from each of my orders.</p>
+                </div>
+                <div class="magfi block">
+                    <h2>AI Intern <span class="date">August 2021 - Present</span></h2>
+                    <h3><a target="_blank" href="https://www.magfi.co">Magfi</a></h3>
+                    <p class="explanation">I developed a natural language processing algorithm to analyze users' sentiments. I've worked on migrating our database into ElasticSearch, utilizing Python scripts.</p>
                 </div>
             </div>
         </section>
         <section class="skills" id="skills">
             <div class="container">
-                <h1>Skills</h1>
+                <h1>Skills/Languages</h1>
                 <div class="tools">
                     <h3>Programming Tools</h3>
                     <div class="tool-icons">
@@ -65,7 +81,6 @@
                             <li><img src="Images/javascript.png" alt=""></li>
                             <li><img src="Images/django.png" alt=""></li>
                             <li><img src="Images/tensorflow.png" alt=""></li>
-                            <li><img src="Images/nodejs.png" alt=""></li>
                             <li><img src="Images/git.png" alt=""></li> 
                         </ul>
                     </div>
@@ -79,16 +94,39 @@
                         <li>Frontend Web Development</li>
                     </ul>
                 </div>
+                <div class="languages">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Turkish: Native</li>
+                        <li>English: Professional working proficiency</li>
+                        <li>German: Limited working proficiency</li>
+                    </ul>
+                </div>
             </div>
         </section>
-        <section class="interests" id="interests">
+        <section class="projects" id="projects">
             <div class="container">
-                <h1>Interests</h1>
-                <p>I love playing table tennis, have been playing table tennis for the last 7 years. I have been playing in my school team and I am the captain of the Besiktas U18 table tennis team.</p>
-                <p>In my leisure time I like to play chess with friends or solve chess puzzles. I have been playing chess for a couple years and I love playing it.</p>
-                <p>I actually do like almost any sport, but my two of my favorite sports to watch are football and basketball. I like watching some NBA games and some of Premier League games as well.</p>
+                <h1>Projects</h1>
+                <div class="scrapista block">
+                    <h2>Scrapista <span class="date">March 2021 - May 2021</span></h2>
+                    <h3><a target="_blank" href="https://github.com/alpnix/scrapista">Visit Project</a></h3>
+                    <p class="explanation">Scrapista is a Python package that helps programmers with scraping data from some of the most popular websites such as Amazon, IMDB and Wikipedia. You can view the full documentation here: <a target="_blank" href="https://scrapista.readthedocs.io/en/latest/">https://scrapista.readthedocs.io/en/latest/</a></p>
+                </div>
+                <div class="biolob block">
+                    <h2>Biolob <span class="date">July 2021 - August 2021</span></h2>
+                    <h3><a target="_blank" href="http://biolob.herokuapp.com/">Visit Project</a></h3>
+                    <p class="explanation">I developed Biolob as a final project to the Limitless Makers Tech and Entrepreneurship Summer Program I attended. Biolob aims to give online psychological therapy through its chatbot and other services yet to come.</p>
+                </div>
+                <div class="chat block">
+                    <h2>ChatApp <span class="date">February 2021</span></h2>
+                    <h3><a target="_blank" href="http://alpnix-chatapp.herokuapp.com/">Visit Project</a></h3>
+                    <p class="explanation">ChatApp is a multi room web based chatting application that is inspired by WhatsApp.</p>
+                </div>
             </div>
         </section>
+        <br>
+        <p style="text-align: center">&copy 2022 by Alp Niksarli</p>
+        <br>
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script type="text/javascript">
@@ -96,7 +134,7 @@
         var about = document.getElementById("aboutlink")
         var education = document.getElementById("educationlink")
         var skills = document.getElementById("skillslink")
-        var interests = document.getElementById("interestslink")
+        var experience = document.getElementById("experiencelink")
 
 
         $(document).on("click", ".navbar ul li a", function(event){
