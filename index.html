@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the personal portfolio website of Alp Niksarli. You can view Alp Niksarli's, mine, portfolio on this website.">
     <link rel="icon" href="Images/origami-bird.png">
     <link rel="stylesheet" href="css/portfolio.css">
-    <title>Alp Niksarli</title>
+    <title>Alp Niksarli - Personal Portfolio</title>
+    <meta>
 </head>
 <body>
     <nav>
@@ -21,7 +23,13 @@
                     <li><a id="skillslink" href="#skills">Skills/Languages</a></li>
                     <li><a id="skillslink" href="#projects">Projects</a></li>
                 </ul>
-            </div>
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="burger-menu">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                  </div>  
+                  </div>
             <div class="contact">
                 <a download="alp-niksarli-cv" href="cv.pdf">Download CV</a>
             </div>
@@ -35,7 +43,7 @@
                 <p class="aboutme" style="padding-top: 17px;">I'm a junior Robert College student, interested in full stack development and entrepreneurship. I aim to develop a tech based product that will have a positive impact in many lives.</p>
                 <div class="social-icons">
                     <a target="_blank" href="https://www.linkedin.com/in/alp-niksarli-943a75206/"><button><img  src="Images/linkedin.png" alt="face"></button></a>
-                    <a target="_blank" href="https://github.com/alpnix"><button><img src="Images/github.png" alt=""></button></a>
+                    <a target="_blank" href="https://github.com/alpnix"><button><img src="Images/github.png" alt="github"></button></a>
                     <a target="_blank" href="https://www.instagram.com/alpniksarli/"><button><img src="Images/instagram.png" alt="insta"></button></a>
                 </div>
             </div>
@@ -77,11 +85,11 @@
                     <h3>Programming Tools</h3>
                     <div class="tool-icons">
                         <ul>
-                            <li><img src="Images/python.png" alt=""></li>
-                            <li><img src="Images/javascript.png" alt=""></li>
-                            <li><img src="Images/django.png" alt=""></li>
-                            <li><img src="Images/tensorflow.png" alt=""></li>
-                            <li><img src="Images/git.png" alt=""></li> 
+                            <li><img src="Images/python.png" alt="Python programming language"></li>
+                            <li><img src="Images/javascript.png" alt="JavaScript programming language"></li>
+                            <li><img src="Images/django.png" alt="Django web framework"></li>
+                            <li><img src="Images/tensorflow.png" alt="TensorFlow"></li>
+                            <li><img src="Images/git.png" alt="Git and GitHub"></li> 
                         </ul>
                     </div>
                 </div>
@@ -105,7 +113,7 @@
             </div>
         </section>
         <section class="projects" id="projects">
-            <div class="container">
+            <div class="container" >
                 <h1>Projects</h1>
                 <div class="scrapista block">
                     <h2>Scrapista <span class="date">March 2021 - May 2021</span></h2>
@@ -173,6 +181,27 @@
                 return false;
             })
         }
+        
+        var toggleMenu = function() {
+            menu.classList.toggle("full-menu");
+            sectionsList.classList.toggle("toggle-menu");
+            buttonSection.classList.toggle("button-menu");
+            document.querySelector(".contact>a").classList.toggle("showBlock");
+        }
+
+        var menuButton = document.querySelector(".navlist input");
+        var menu = document.querySelector(".navbar");
+        var sectionsList = document.querySelector(".navlist ul");
+        var buttonSection = document.querySelector(".navbar .contact");
+        menuButton.addEventListener("change", () => {
+            toggleMenu();
+            for (const link of navLinks) {
+                link.addEventListener("click", e => {
+                    document.querySelector(".navlist .burger-menu").click();
+                    document.querySelector(".navlist input").click();
+                })
+            }    
+        })
     </script>
 </body>
 </html>

@@ -5,11 +5,11 @@
     scroll-behavior: smooth;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-#about a {
+.about a {
     color: #00ced1;
     text-decoration: none;
 }
-#about a:hover {
+.about a:hover {
     color: #255784;
 }
 h1{
@@ -134,10 +134,10 @@ section{
     align-items: center;
     font-size: 22px;
 }
-#skills {
-    height: 120vh;
+.skills {
+    height: 110vh;
 }
-#projects {
+.projects {
     height: 130vh;
 }
 .container{
@@ -234,17 +234,31 @@ section{
 .experience h3 {
     padding: 0px 0 20px 0;
 }
-#experience a, #projects a{
+.experience a, .projects a{
     color: #00ced1;
     text-decoration: none;
 }
-#experience a:hover, #projects a:hover {
+.experience a:hover, .projects a:hover {
     color: #255784;
 }
-@media (max-height:650px){
+@media (max-height: 750px){
     .navbar{
         padding-top: 1.2rem;
         padding-bottom: 0;
+    }
+    .about, .education, .experience {
+        height: 130vh;
+    }
+    .skills, .projects {
+        height: 200vh;
+    }
+}
+@media (max-height: 650px) {
+    .about, .education, .experience {
+        height: 150vh;
+    }
+    .skills, .projects {
+        height: 220vh;
     }
 }
 @media (max-height:580px){
@@ -283,8 +297,13 @@ section{
         float: none;
     }
 }
+@media (max-width:1050px) {
+    .navbar img {
+        height: 90%;
+    }
+}
 @media (max-width:905px){
-    #about p,.experience p {
+    .about p,.experience p {
         font-size: 1.2rem;
     }
     .navbar{
@@ -322,13 +341,96 @@ section{
         float: none;
     }
 }
-@media (max-width: 650px){
-    section{
-        height: 122vh;
+@media (max-width: 750px) {
+    .navlist ul {
+        display: none;
+    }
+    .navlist input {
+        display: none;
+    }
+    .navlist .burger-menu {
+        display: block;
+        position: fixed;
+    }
+    .navlist .checkbox {
+        position: absolute;
+        display: block;
+        height: 26px;
+        width: 32px;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20px;
+        z-index: 5;
+        opacity: 0;
+        cursor: pointer;
+    }  
+    .navlist .burger-menu {
+        display: block;
+        height: 26px;
+        width: 32px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;  
+    }
+    .burger-menu .line {
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #fff;
+    }
+    .burger-menu .line1 {
+        transform-origin: 0% 0%;
+        transition: transform 0.4s ease-in-out;  
+    }
+    .burger-menu .line2 {
+        transition: transform 0.2s ease-in-out;
+    }
+    .burger-menu .line3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+    }
+    .navlist input[type="checkbox"]:checked ~ .burger-menu .line1 {
+      transform: rotate(45deg);
+    }
+    .navlist input[type="checkbox"]:checked ~ .burger-menu .line2 {
+      transform: scaleY(0);
+    }
+    .navlist input[type="checkbox"]:checked ~ .burger-menu .line3 {
+      transform: rotate(-45deg);
+    }
+    .navlist input[type="checkbox"]:checked .navlist ul {
+        display: block;
     }
 }
-@media (max-height: 560px){
-    section{
-        height: 122vh;
-    }
+.navlist input {
+    display: none;
+}
+.showBlock {
+    display: block !important;
+}
+.full-menu {
+    height: 100vh;
+    width: 100%;
+}
+.toggle-menu {
+    height: 80% !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    position: fixed !important;
+    top: 0;
+}
+.button-menu {
+    height: 20% !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
 }
