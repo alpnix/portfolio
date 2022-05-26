@@ -40,13 +40,14 @@
             <div class="container">
                 <h1 class="name"><span style="color: black;" class="surname">Alp</span> Niksarli</h1>
                 <p class="address" style="font-size: 23px;">Istanbul, Besiktas - <span style="color: #ACA9A9;">+90 553 017 44 44</span> - <a href="mailto:alp.niksarli@gmail.com">alp.niksarli@gmail.com</a></p>
-                <p class="aboutme" style="padding-top: 17px;">I'm a junior Robert College student, interested in full stack development and entrepreneurship. I aim to develop a tech based product that will have a positive impact in many lives.</p>
+                <p class="aboutme" style="padding-top: 17px;">I'm a junior Robert College student, interested in full stack development, data science and entrepreneurship. I aim to develop a tech based product that will have a positive impact in many lives.</p>
                 <div class="social-icons">
                     <a target="_blank" href="https://www.linkedin.com/in/alp-niksarli-943a75206/"><button><img  src="Images/linkedin.png" alt="face"></button></a>
                     <a target="_blank" href="https://github.com/alpnix"><button><img src="Images/github.png" alt="github"></button></a>
                     <a target="_blank" href="https://www.instagram.com/alpniksarli/"><button><img src="Images/instagram.png" alt="insta"></button></a>
                 </div>
             </div>
+            <a title="See visual CV" id="visuallink" href="#visualtitle">↓ Visual CV</a>
         </section>
         <section class="education" id="education">
             <div class="container">
@@ -132,19 +133,41 @@
                 </div>
             </div>
         </section>
+        <button onclick="topFunction()" id="topBtn" title="Go to top">↑</button>
+        <section class="visual" id="visual">
+            <div class="container">
+                <h1 id="visualtitle">Visual CV</h1>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0JxHk28HYJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
         <br>
         <p style="text-align: center">&copy 2022 by Alp Niksarli</p>
         <br>
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script type="text/javascript">
+
+        // define buttons 
+        let topButton = document.querySelector("#topBtn");
+        let visualButton = document.querySelector("#visuallink");
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
         var sections = document.querySelectorAll("section")
         var about = document.getElementById("aboutlink")
         var education = document.getElementById("educationlink")
         var skills = document.getElementById("skillslink")
         var experience = document.getElementById("experiencelink")
+        var visual = document.getElementById("visuallink")
 
 
+        // avoiding button's # to get into URL
         $(document).on("click", ".navbar ul li a", function(event){
             $(this).addClass("active").siblings().removeClass("active");
             setTimeout(() => {
@@ -152,7 +175,25 @@
             },1)
         })
 
+        // avoiding visual's # to get into URL
+        $(document).on("click", "#visuallink", function(event){
+            setTimeout(() => {
+                history.pushState("", document.title, window.location.pathname);
+            },1)
+        })
+
         onscroll = function(e) {
+            if (document.body.scrollTop > 230 || document.documentElement.scrollTop > 230) {
+                visualButton.style.display = "none"
+            } else {
+                visualButton.style.display = "block"
+            }
+            
+            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                topButton.style.display = "block";
+            } else {
+                topButton.style.display = "none";
+            }
             var scrollPosition = document.documentElement.scrollTop
 
             sections.forEach(section =>{

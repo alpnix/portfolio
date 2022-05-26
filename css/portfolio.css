@@ -102,6 +102,26 @@ h1{
     background: #2196f3;
     box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
 }
+#visuallink{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;  
+    padding: 5px 10px 5px 10px;
+    border: none;
+    color: #2196f3;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: 1.2s;
+}
+#visuallink:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+
 .about .contact a{
     margin-top: 80px;
     padding: 5px 10px 5px 10px;
@@ -128,17 +148,41 @@ main>p {
     font-size: 18px;
 }
 section{
-    height: 100vh;
+    height: 100vh !important;
     overflow: hidden;
     display: flex;
     align-items: center;
     font-size: 22px;
 }
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: #00ced1;
+  color: white;
+  cursor: pointer;
+  padding: 10px 19px;
+  border-radius: 50%;
+}
+#topBtn:hover {
+  background-color: #255784;
+}  
+.video-container {
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+}
 .skills {
-    height: 110vh;
+    height: 140vh !important;
 }
 .projects {
-    height: 140vh;
+    height: 150vh !important;
 }
 .container{
     width: 100%;
