@@ -13,7 +13,7 @@
     <nav>
         <div class="navbar">
             <div class="img">
-                <img src="Images/alp.png" alt="Alp Niksarli">
+                <img src="images/alp.png" alt="Alp Niksarli">
             </div>
             <div class="navlist">
                 <ul>
@@ -28,8 +28,8 @@
                     <span class="line line1"></span>
                     <span class="line line2"></span>
                     <span class="line line3"></span>
-                  </div>  
-                  </div>
+                </div>  
+            </div>
             <div class="contact">
                 <a download="alp-niksarli-resume" href="resume.pdf">Download Resume</a>
             </div>
@@ -47,7 +47,6 @@
                     <a target="_blank" href="https://www.instagram.com/alpniksarli/"><button><img src="Images/instagram.png" alt="insta"></button></a>
                 </div>
             </div>
-            <a title="See visual CV" id="visuallink" href="#visualtitle">↓ Visual CV</a>
         </section>
         <section class="education" id="education">
             <div class="container">
@@ -140,115 +139,11 @@
             </div>
         </section>
         <button onclick="topFunction()" id="topBtn" title="Go to top">↑</button>
-        <section class="visual" id="visual">
-            <div class="container">
-                <h1 id="visualtitle">Visual CV</h1>
-                <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0JxHk28HYJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-        </section>
         <br>
-        <p style="text-align: center">&copy 2023 by Alp Niksarli</p>
+        <p style="text-align: center">&copy 2024 by Alp Niksarli</p>
         <br>
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script type="text/javascript">
-
-        // define buttons 
-        let topButton = document.querySelector("#topBtn");
-        let visualButton = document.querySelector("#visuallink");
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-
-        var sections = document.querySelectorAll("section")
-        var about = document.getElementById("aboutlink")
-        var education = document.getElementById("educationlink")
-        var skills = document.getElementById("skillslink")
-        var experience = document.getElementById("experiencelink")
-        var visual = document.getElementById("visuallink")
-
-
-        // avoiding button's # to get into URL
-        $(document).on("click", ".navbar ul li a", function(event){
-            $(this).addClass("active").siblings().removeClass("active");
-            setTimeout(() => {
-                history.pushState("", document.title, window.location.pathname);
-            },1)
-        })
-
-        // avoiding visual's # to get into URL
-        $(document).on("click", "#visuallink", function(event){
-            setTimeout(() => {
-                history.pushState("", document.title, window.location.pathname);
-            },1)
-        })
-
-        onscroll = function(e) {
-            if (document.body.scrollTop > 230 || document.documentElement.scrollTop > 230) {
-                visualButton.style.display = "none"
-            } else {
-                visualButton.style.display = "block"
-            }
-            
-            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-                topButton.style.display = "block";
-            } else {
-                topButton.style.display = "none";
-            }
-            var scrollPosition = document.documentElement.scrollTop
-
-            sections.forEach(section =>{
-                if (scrollPosition >= section.offsetTop - section.offsetHeight*0.25 && scrollPosition < section.offsetTop + section.offsetHeight - section.offsetHeight*0.25){
-                    var currentId = section.attributes.id.value
-                    removeAllActiveClasses()
-                    addActiveClass(currentId)
-                }
-            })
-        }
-
-        var removeAllActiveClasses = function() {
-            document.querySelectorAll(".navbar ul li a").forEach((el) => {
-                el.classList.remove("active")
-            })
-        }
-
-        var addActiveClass = function(id) {
-            var selector = '.navbar ul li a[href="#' + String(id) + '"]'
-            document.querySelector(selector).classList.add("active")
-        }
-
-        var navLinks = document.querySelectorAll(".navlist li");
-        for (const link of navLinks) {
-            link.addEventListener("click", e => {
-                return false;
-            })
-        }
-        
-        var toggleMenu = function() {
-            menu.classList.toggle("full-menu");
-            sectionsList.classList.toggle("toggle-menu");
-            buttonSection.classList.toggle("button-menu");
-            document.querySelector(".contact>a").classList.toggle("showBlock");
-        }
-
-        var menuButton = document.querySelector(".navlist input");
-        var menu = document.querySelector(".navbar");
-        var sectionsList = document.querySelector(".navlist ul");
-        var buttonSection = document.querySelector(".navbar .contact");
-        menuButton.addEventListener("change", () => {
-            toggleMenu();
-            for (const link of navLinks) {
-                link.addEventListener("click", e => {
-                    document.querySelector(".navlist .burger-menu").click();
-                    document.querySelector(".navlist input").click();
-                })
-            }    
-        })
-    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
