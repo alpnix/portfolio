@@ -86,5 +86,5 @@ menuButton.addEventListener("change", () => {
             document.querySelector(".navlist .burger-menu").click();
             document.querySelector(".navlist input").click();
         })
-    }    
+    }
 })
