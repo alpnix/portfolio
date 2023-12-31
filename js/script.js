@@ -32,7 +32,6 @@ onscroll = function() {
         topButton.style.display = "none";
     }
     var scrollPosition = document.documentElement.scrollTop
-    console.log(scrollPosition);
 
     sections.forEach(section => {
         if (scrollPosition >= section.offsetTop - section.offsetHeight*0.25 && 

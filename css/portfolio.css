@@ -1,10 +1,40 @@
-*{
+:root { 
+    --heading: 40px;
+    --subheading: 32px;
+    --subsubheading: 26px;
+    --paragraph: 22px;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+/* 
+Apply variable sizes of font sizes
+Use '!important! to disregard other conflicts
+*/
+h1 {
+    color: #069a9c;
+    margin-bottom: 30px;
+    font-size: var(--heading) !important;
+}
+
+h2 {
+    font-size: var(--subheading) !important;
+}
+
+h3 {
+    font-size: var(--subsubheading) !important;
+}
+
+.section p {
+    font-size: var(--paragraph) !important;
+}
+
 
 .about a {
     color: #00ced1;
@@ -15,32 +45,27 @@
     color: #255784;
 }
 
-h1{
-    color: #069a9c;
-    margin-bottom: 30px;
-}
-
 .navbar .img{
     height: 30%;
 }
 
-.navbar .navlist{
+.navbar .navlist {
     height: 50%;
 }
 
-.navbar .contact{
+.navbar .contact {
     height: 20%;
     margin-top: 35px;
     align-items: center;
     display: flex;
 }
 
-.navbar img{
+.navbar img {
     height: 100%;
     border-radius: 50%;
 }
 
-.about img{
+.about img {
     cursor: pointer;
 }
 
@@ -140,7 +165,7 @@ h1{
     box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
 }
 
-main{
+main {
     width: 70%;
     float: right;
 }
@@ -151,7 +176,7 @@ main>p {
     font-size: 18px;
 }
 
-section{
+section {
     height: 100vh !important;
     overflow: hidden;
     display: flex;
@@ -184,14 +209,6 @@ section{
     margin-top: 10%;
     justify-content: center;
     align-items: center;
-}
-
-.skills {
-    height: 140vh !important;
-}
-
-.projects {
-    height: 150vh !important;
 }
 
 .container{
