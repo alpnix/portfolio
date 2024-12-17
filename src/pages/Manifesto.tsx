@@ -60,7 +60,7 @@ function Manifesto() {
       projects and gained deeper insights into what I am currently trying to
       achieve with a direct-to-user technology startup, <strong> GrotN</strong>.
       I also couldn't help but think back to a book I read during high school,
-      Otto Scharmer's <em>Theory U</em>. The book highlights the power of design
+      Otto Scharmer's <em> Theory U</em>. The book highlights the power of design
       thinking to create meaningful solutions by putting the user at the center.
       It reminds me that the design process is less about jumping to solutions
       and more about <strong> seeing, sensing, and iterating</strong> to create
@@ -228,7 +228,7 @@ function Manifesto() {
       people.
     </p>
     <p>
-      Otto Scharmer's <em>Theory U</em> reminds us that design is a journey of
+      Otto Scharmer's <em> Theory U</em> reminds us that design is a journey of
       listening, reflecting, and co-creating. Moving forward, I will carry these
       principles into every project:
     </p>
