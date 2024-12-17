@@ -1,6 +1,7 @@
 #manifesto {
     margin: 0;
     text-align: center !important;
+
     background-color: rgba(0, 0, 0, 1);
     p, h1, h2, h3, h4, h5, h6 {
         padding: 0 1.5em;
@@ -12,9 +13,17 @@
         flex-direction: column;
         padding: 2.5em;
         background-image: url("");
+        width: 80%;
         // background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(115,112,118,0.3));
+    }
 
-       
+    .design-manifesto {
+        width: 80%;
+
+        img {
+            width: 80%;
+            height: auto;
+        }
     }
 
 }
@@ -35,6 +44,10 @@
     margin: 20px 0;
   }
     
+  ul {
+    list-style: none;
+  }
+
   p,
   li {
     margin-bottom: 15px;

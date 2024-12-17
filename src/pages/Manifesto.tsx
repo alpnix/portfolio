@@ -2,6 +2,13 @@ import React from "react";
 import '../assets/styles/Manifesto.scss';
 import { Link } from "react-router-dom";
 
+import HCI from '../assets/images/Human-Computer-Interaction.avif';
+import EmpathyMap from '../assets/images/empathy-map.webp';
+import Personas from '../assets/images/personas.png';
+import AccessibilityMap from '../assets/images/accessibility-map.webp';
+import RedesignClock from '../assets/images/redesign-clock.webp';
+
+
 function Manifesto() {
   return (
     <div className="container" id="manifesto">
@@ -28,7 +35,7 @@ function Manifesto() {
       <div className="design-manifesto">
   <header className="header">
     <img
-      src="../src/assets/images/Human-Computer-Interaction.avif"
+      src={HCI}
       alt="Human-Computer Interaction"
       className="header-image"
     />
@@ -49,11 +56,11 @@ function Manifesto() {
       designing the way we do? And how can we design better for people?</strong>
     </p>
     <p>
-      Throughout this course, I’ve reflected on a ton of my previous software
+      Throughout this course, I've reflected on a ton of my previous software
       projects and gained deeper insights into what I am currently trying to
       achieve with a direct-to-user technology startup, <strong>GrotN</strong>.
-      I also couldn’t help but think back to a book I read during high school,
-      Otto Scharmer’s <em>Theory U</em>. The book highlights the power of design
+      I also couldn't help but think back to a book I read during high school,
+      Otto Scharmer's <em>Theory U</em>. The book highlights the power of design
       thinking to create meaningful solutions by putting the user at the center.
       It reminds me that the design process is less about jumping to solutions
       and more about <strong>seeing, sensing, and iterating</strong> to create
@@ -78,7 +85,7 @@ function Manifesto() {
     <h3>Start with Empathy</h3>
     <p>
       The design process begins with empathy. Real design requires us to step
-      into the user’s shoes, listen to their struggles, and see the world from
+      into the user's shoes, listen to their struggles, and see the world from
       their perspective. This idea came alive during the
       <strong>Needfinding Exercise</strong>, where I explored the challenges
       college students face in aligning their fitness and diet goals.
@@ -102,14 +109,14 @@ function Manifesto() {
       </li>
     </ul>
     <img
-      src="../src/assets/images/empathy-map.webp"
+      src={EmpathyMap}
       alt="Empathy Map"
       className="content-image"
     />
     <p>
       Creating an <strong>empathy map</strong> helped me synthesize these
-      stories and truly understand what users were going through. Empathy isn’t
-      just about listening—it’s about seeing beyond the surface to design better
+      stories and truly understand what users were going through. Empathy isn't
+      just about listening—it's about seeing beyond the surface to design better
       solutions.
     </p>
   </section>
@@ -120,7 +127,7 @@ function Manifesto() {
     <h3>Define Problems Clearly</h3>
     <p>
       Once you understand the user, the next step is to define the problem. As
-      Albert Einstein said, “If I had an hour to solve a problem, I’d spend 55
+      Albert Einstein said, “If I had an hour to solve a problem, I'd spend 55
       minutes thinking about the problem and 5 minutes thinking about
       solutions.”
     </p>
@@ -129,7 +136,7 @@ function Manifesto() {
       project, where we created user personas to improve usability.
     </p>
     <img
-      src="../src/assets/images/personas.png"
+      src={Personas}
       alt="User Personas"
       className="content-image"
     />
@@ -177,7 +184,7 @@ function Manifesto() {
       navigating Davidson College as someone with mobility impairments.
     </p>
     <img
-      src="../src/assets/images/accessibility-map.webp"
+      src={AccessibilityMap}
       alt="Accessibility Map"
       className="content-image"
     />
@@ -200,7 +207,7 @@ function Manifesto() {
       building intuitive tools that users can engage with effortlessly.
     </p>
     <img
-      src="../src/assets/images/redesign-clock.webp"
+      src={RedesignClock}
       alt="Redesign Clock"
       className="content-image"
     />
@@ -216,12 +223,12 @@ function Manifesto() {
     <h3>Conclusion</h3>
     <p>
       This class transformed how I see design. I now think deeply about the
-      <strong>why</strong> and <strong>how</strong> of technology. Design isn’t
-      about adding features—it’s about solving real problems and empowering
+      <strong>why</strong> and <strong>how</strong> of technology. Design isn't
+      about adding features—it's about solving real problems and empowering
       people.
     </p>
     <p>
-      Otto Scharmer’s <em>Theory U</em> reminds us that design is a journey of
+      Otto Scharmer's <em>Theory U</em> reminds us that design is a journey of
       listening, reflecting, and co-creating. Moving forward, I will carry these
       principles into every project:
     </p>
