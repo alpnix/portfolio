@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.25f12a1b.css",
+    "main.js": "/portfolio/static/js/main.9f231e1b.js",
+    "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/Alp Subject.png": "/portfolio/static/media/Alp Subject.bba63c5e022be7b7cae8.png",
+    "static/media/another-world.png": "/portfolio/static/media/another-world.08fae37dedbd1c70eca0.png",
+    "static/media/bg-light.png": "/portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/Alp-Niksarli-Check.jpg": "/portfolio/static/media/Alp-Niksarli-Check.d194353f4441705144f6.jpg",
+    "static/media/redesign-extend.webp": "/portfolio/static/media/redesign-extend.267177f6226d8d92abc8.webp",
+    "static/media/Human-Computer-Interaction.avif": "/portfolio/static/media/Human-Computer-Interaction.7b471f8ebcfe50783728.avif",
+    "static/media/knotty-board.webp": "/portfolio/static/media/knotty-board.f07e5c3f72cb2611a170.webp",
+    "static/media/understanding.webp": "/portfolio/static/media/understanding.8d5b110e29632f1605b3.webp",
+    "index.html": "/portfolio/index.html",
+    "main.25f12a1b.css.map": "/portfolio/static/css/main.25f12a1b.css.map",
+    "main.9f231e1b.js.map": "/portfolio/static/js/main.9f231e1b.js.map",
+    "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25f12a1b.css",
+    "static/js/main.9f231e1b.js"
+  ]
+}
