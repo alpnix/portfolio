@@ -52,18 +52,18 @@ function Manifesto() {
       From AI models that mimic human creativity to tools that optimize daily
       tasks, technology now shapes how we work, live, and connect. As someone
       who has spent time building software projects to help others, this class
-      gave me a rare opportunity to slow down and ask: <strong>Why are we
-      designing the way we do? And how can we design better for people?</strong>
+      gave me a rare opportunity to slow down and ask: <strong> Why are we
+      designing the way we do? And how can we design better for people? </strong>
     </p>
     <p>
       Throughout this course, I've reflected on a ton of my previous software
       projects and gained deeper insights into what I am currently trying to
-      achieve with a direct-to-user technology startup, <strong>GrotN</strong>.
+      achieve with a direct-to-user technology startup, <strong> GrotN</strong>.
       I also couldn't help but think back to a book I read during high school,
       Otto Scharmer's <em>Theory U</em>. The book highlights the power of design
       thinking to create meaningful solutions by putting the user at the center.
       It reminds me that the design process is less about jumping to solutions
-      and more about <strong>seeing, sensing, and iterating</strong> to create
+      and more about <strong> seeing, sensing, and iterating</strong> to create
       tools that empower people.
     </p>
     <p>
@@ -87,7 +87,7 @@ function Manifesto() {
       The design process begins with empathy. Real design requires us to step
       into the user's shoes, listen to their struggles, and see the world from
       their perspective. This idea came alive during the
-      <strong>Needfinding Exercise</strong>, where I explored the challenges
+      <strong> Needfinding Exercise</strong>, where I explored the challenges
       college students face in aligning their fitness and diet goals.
     </p>
     <p>
@@ -97,14 +97,14 @@ function Manifesto() {
     </p>
     <ul>
       <li>
-        <strong>Keeping track of calories</strong> is harder than people think.
+        <strong> Keeping track of calories</strong> is harder than people think.
       </li>
       <li>
-        <strong>Accountability matters</strong>—having a “fitness buddy” makes
+        <strong> Accountability matters</strong>—having a “fitness buddy” makes
         sticking to a plan easier.
       </li>
       <li>
-        <strong>Consistency brings comfort</strong>—users want routines without
+        <strong> Consistency brings comfort</strong>—users want routines without
         feeling overwhelmed.
       </li>
     </ul>
@@ -114,7 +114,7 @@ function Manifesto() {
       className="content-image"
     />
     <p>
-      Creating an <strong>empathy map</strong> helped me synthesize these
+      Creating an <strong> empathy map</strong> helped me synthesize these
       stories and truly understand what users were going through. Empathy isn't
       just about listening—it's about seeing beyond the surface to design better
       solutions.
@@ -132,7 +132,7 @@ function Manifesto() {
       solutions.”
     </p>
     <p>
-      This principle became clear in the <strong>Knotty & Board</strong>
+      This principle became clear in the <strong> Knotty & Board</strong>
       project, where we created user personas to improve usability.
     </p>
     <img
@@ -143,7 +143,7 @@ function Manifesto() {
     <p>
       These personas helped us view the problem from multiple lenses and
       understand pain points. Similarly, while prototyping the
-      <strong>fitness-diet tool</strong>, narrowing the problem helped me focus
+      <strong> fitness-diet tool</strong>, narrowing the problem helped me focus
       on tracking calories in a simple, non-intrusive way.
     </p>
   </section>
@@ -154,17 +154,17 @@ function Manifesto() {
     <h3>Iterate Relentlessly</h3>
     <p>
       Design is never perfect on the first try. The feedback loop of
-      <strong>test, fail, improve</strong> became central to projects like the
-      <strong>fitness-diet tool</strong> and the
-      <strong>Design Sprint 2 visualization</strong>.
+      <strong> test, fail, improve</strong> became central to projects like the
+      <strong> fitness-diet tool</strong> and the
+      <strong> Design Sprint 2 visualization</strong>.
     </p>
     <ul>
       <li>
-        <strong>Initial problem:</strong> Users found calorie tracking too
+        <strong> Initial problem:</strong> Users found calorie tracking too
         manual and stressful.
       </li>
       <li>
-        <strong>Iteration:</strong> Simplified the interface to prioritize
+        <strong> Iteration:</strong> Simplified the interface to prioritize
         calorie surplus as the main KPI.
       </li>
     </ul>
@@ -180,7 +180,7 @@ function Manifesto() {
     <h3>Design Inclusively</h3>
     <p>
       Inclusivity is central to good design. During the
-      <strong>Campus Accessibility Project</strong>, I spent 24 hours
+      <strong> Campus Accessibility Project</strong>, I spent 24 hours
       navigating Davidson College as someone with mobility impairments.
     </p>
     <img
@@ -191,7 +191,7 @@ function Manifesto() {
     <p>
       The project revealed how small design choices can make or break
       accessibility. Similarly, in our
-      <strong>3D VR ball shooting game</strong>, we prioritized accessibility so
+      <strong> 3D VR ball shooting game</strong>, we prioritized accessibility so
       the experience could engage multiple senses.
     </p>
   </section>
@@ -202,8 +202,8 @@ function Manifesto() {
     <h3>Prototype for the Real World</h3>
     <p>
       Prototypes are meant for testing ideas, not for perfection. The
-      <strong>3D VR ball shooting game</strong> and the
-      <strong>Re-design and Extend</strong> assignment taught me the value of
+      <strong> 3D VR ball shooting game</strong> and the
+      <strong> Re-design and Extend</strong> assignment taught me the value of
       building intuitive tools that users can engage with effortlessly.
     </p>
     <img
@@ -223,7 +223,7 @@ function Manifesto() {
     <h3>Conclusion</h3>
     <p>
       This class transformed how I see design. I now think deeply about the
-      <strong>why</strong> and <strong>how</strong> of technology. Design isn't
+      <strong> why</strong> and <strong> how</strong> of technology. Design isn't
       about adding features—it's about solving real problems and empowering
       people.
     </p>
@@ -241,7 +241,7 @@ function Manifesto() {
     </ul>
     <blockquote>
       “The ultimate aim of design is not to create for humans, but to create   
-       <strong> with </strong> humans.”
+       <strong>  with </strong> humans.”
     </blockquote>
   </section>
 </div>
