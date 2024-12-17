@@ -1,0 +1,18 @@
+#about { 
+    padding-top: 3.2em;
+
+    .section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content { 
+        text-align: center;
+        width: 80%;
+    }
+
+}
+
+hr {
+    width: 80% !important;
+}
