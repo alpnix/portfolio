@@ -1,11 +1,16 @@
 #manifesto {
     margin: 0;
-    text-align: center !important;
+    text-align: center ;
 
     background-color: rgba(0, 0, 0, 1);
     p, h1, h2, h3, h4, h5, h6 {
         padding: 0 1.5em;
         color: white;
+        text-align: center;
+    }
+
+    ol, ul, p {
+      text-align: left;
     }
 
     .about-section {
@@ -45,7 +50,8 @@
   }
     
   ul {
-    list-style: none;
+    // list-style: none;
+    text-align: center;
   }
 
   p,

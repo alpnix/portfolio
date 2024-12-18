@@ -11,7 +11,7 @@ function Blog() {
         <h1>Design Sprints</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://medium.com/@alsmith_29721/design-sprint-1-knotty-board-0fe8792461db" rel="noreferrer"><img src={KnottyBoard} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://medium.com/@alsmith_29721/design-sprint-1-knotty-board-0fe8792461db" target="_blank" rel="noreferrer"><img src={KnottyBoard} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://medium.com/@alsmith_29721/design-sprint-1-knotty-board-0fe8792461db" target="_blank" rel="noreferrer"><h2>Design for Dimensions</h2></a>
                 <p></p>
             </div>
