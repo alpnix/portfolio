@@ -1,3 +1,6 @@
+# other templates
+another_portfolio_template/*
+
 node_modules/
 build/
 package-lock.json

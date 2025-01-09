@@ -1,18 +1,17 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faCodepen, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faPython } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
-import { faNetworkWired, faGear, faBinoculars } from "@fortawesome/free-solid-svg-icons";
+import { faGear } from "@fortawesome/free-solid-svg-icons";
 
 const labelsFirst = [
     "React",
     "TypeScript",
     "JavaScript",
     "Node.js",
-    "HTML5",
-    "CSS3",
+    "Tailwind",
     "Next.js",
     "Django",
     "Python",
@@ -22,20 +21,24 @@ const labelsFirst = [
 ];
 
 const labelsSecond = [
-    "Python", 
-    "Requests", 
+    "Python",
+    "Flask",
+    "Requests",
     "Git",
     "Linux",
     "Pandas",
     "Selenium",
     "BeautifulSoup",
+    "RegEx"
 ];
 
 const labelsThird = [
+    "Python",
     "OpenAI",
     "Pinecone",
     "Hugging Face",
-    "Perplexity", 
+    "Antrophic",
+    "Perplexity",
     "RAG", 
     "Streamlit",
     "TensorFlow",
