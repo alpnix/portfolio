@@ -14,8 +14,8 @@ function Project() {
         <h1>Projects & Achievements</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.linkedin.com/posts/the-hurt-hub-davidson_futurefounders-davidsonentrepreneurs-thehurthub-activity-7265810585257152512-_xyf" target="_blank" rel="noreferrer"><img src={AvingerCertificate} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hurthub.davidson.edu/avinger-impact-fund/" target="_blank" rel="noreferrer"><h2>Avinger Impact Fund 2024</h2></a>
+                <a href="https://hurthub.davidson.edu/alp-niksarli-27-tackles-dutch-housing-crisis-with-avinger-impact-fund-award/" target="_blank" rel="noreferrer"><img src={AvingerCertificate} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://hurthub.davidson.edu/alp-niksarli-27-tackles-dutch-housing-crisis-with-avinger-impact-fund-award/" target="_blank" rel="noreferrer"><h2>Avinger Impact Fund 2024</h2></a>
                 <p>Won first place 🥇 in the pitch competition, earning $7000+ and other investment offers.</p>
             </div>
 

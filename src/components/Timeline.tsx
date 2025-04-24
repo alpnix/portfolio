@@ -16,19 +16,19 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2024 - present"
+            date="2025 May - 2025 Aug"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">CTO & Cofounder at GrotN</h3>
-            <h4 className="vertical-timeline-element-subtitle">Delaware, United States</h4>
+            <h3 className="vertical-timeline-element-title">SDE Intern at Amazon</h3>
+            <h4 className="vertical-timeline-element-subtitle">Sunnyvale, CA</h4>
             <p>
-              Full-stack Web Development, Project Management, Business Development
+              Devices and Services, Software Development, Data Analysis, Machine Learning
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2024 - Present"
+            date="2024 Aug - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -40,7 +40,7 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2024 - 2024"
+            date="2024 May - 2024 Aug"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -52,7 +52,7 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2023"
+            date="2020 Jun - 2023 Aug"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >

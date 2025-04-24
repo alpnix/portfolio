@@ -37,6 +37,7 @@ const labelsThird = [
     "OpenAI",
     "Pinecone",
     "Hugging Face",
+    "LangChain",
     "Antrophic",
     "Perplexity",
     "RAG", 
