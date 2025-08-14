@@ -52,15 +52,15 @@ function Expertise() {
     return (
     <div className="container" id="expertise">
         <div className="skills-container">
-            <h1>Expertise</h1>
+            <h1>Skills</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built multiple web applications from scratch using modern technologies such as Next and Express. I have a strong proficiency in Python and its various backend frameworks such as Django, Flask, FastAPI.</p>
+                    <FontAwesomeIcon icon={faPython} size="3x"/>
+                    <h3>GenAI & LLM</h3>
+                    <p>Worked on various machine learning/deep learning projects to fit the data. Currently, utilizing RAG to build agentic frameworks. I am also studying GenAI with a strong focus on building Large Language Models.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
-                        {labelsFirst.map((label, index) => (
+                        {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
@@ -79,16 +79,17 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Worked on various machine learning/deep learning projects to fit the data. Currently, utilizing RAG to build agentic frameworks. I am also studying GenAI with a strong focus on building Large Language Models.</p>
+                    <FontAwesomeIcon icon={faReact} size="3x"/>
+                    <h3>Full Stack Web Development</h3>
+                    <p>I have built multiple web applications from scratch using modern technologies such as Next and Express. I have a strong proficiency in Python and its various backend frameworks such as Django, Flask, FastAPI.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
+                        {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
