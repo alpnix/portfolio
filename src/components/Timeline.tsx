@@ -12,6 +12,20 @@ function Timeline() {
       <div className="items-container">
         <h1>Experience</h1>
         <VerticalTimeline>
+           <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2025 Sep - Present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">NLP Researcher</h3>
+            <h4 className="vertical-timeline-element-subtitle"><i>University of Edinburgh</i></h4>
+            <p>
+              LLMs, Reinforcement Learning, Post-training, Reasoning
+            </p>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
