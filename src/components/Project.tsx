@@ -1,4 +1,5 @@
 import React from "react";
+import AdaHacks from '../assets/images/adahacks.jpeg';
 import AvingerCertificate from '../assets/images/avinger-certificate.jpeg';
 import AlpCheck from '../assets/images/Alp-Niksarli-Check.jpg';
 import Spyder from '../assets/images/Spyder.jpeg';
@@ -15,6 +16,12 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Projects & Achievements</h1>
         <div className="projects-grid">
+            <div className="project">
+                <a href="https://devpost.com/software/garden-finance" target="_blank" rel="noreferrer"><img src={AdaHacks} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://devpost.com/software/garden-finance" target="_blank" rel="noreferrer"><h2>Garden Finance</h2></a>
+                <p>Won first place 🥇 and Optiver prize category in Ada Hacks.</p>
+            </div>
+
             <div className="project">
                 <a href="https://hurthub.davidson.edu/alp-niksarli-27-tackles-dutch-housing-crisis-with-avinger-impact-fund-award/" target="_blank" rel="noreferrer"><img src={AvingerCertificate} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://hurthub.davidson.edu/alp-niksarli-27-tackles-dutch-housing-crisis-with-avinger-impact-fund-award/" target="_blank" rel="noreferrer"><h2>Avinger Impact Fund</h2></a>
