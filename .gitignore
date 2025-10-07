@@ -1,5 +1,6 @@
 # other templates
-another_portfolio_template/*
+another_portfolio_template
+old_portfolio
 
 node_modules/
 build/
