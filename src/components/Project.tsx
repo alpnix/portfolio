@@ -18,7 +18,7 @@ function Project() {
         <div className="projects-grid">
             <div className="project">
                 <a href="https://devpost.com/software/garden-finance" target="_blank" rel="noreferrer"><img src={AdaHacks} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://devpost.com/software/garden-finance" target="_blank" rel="noreferrer"><h2>Garden Finance</h2></a>
+                <a href="https://github.com/alpnix/AdaHack2025" target="_blank" rel="noreferrer"><h2>Garden Finance</h2></a>
                 <p>Won first place 🥇 and Optiver prize category in Ada Hacks.</p>
             </div>
 
