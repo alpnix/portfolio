@@ -3,7 +3,8 @@ import AdaHacks from '../assets/images/adahacks.jpeg';
 import AvingerCertificate from '../assets/images/avinger-certificate.jpeg';
 import AlpCheck from '../assets/images/Alp-Niksarli-Check.jpg';
 import Spyder from '../assets/images/Spyder.jpeg';
-import Arxiv from '../assets/images/Arxiv.jpeg';
+import ArxivTubitak from '../assets/images/Arxiv-tubitak.jpeg';
+import ArxivPiqa from '../assets/images/Arxiv-piqa.jpeg';
 import OpenContext from '../assets/images/open-context.jpeg';
 import Pragma from '../assets/images/pragma.jpeg';
 import Patent from '../assets/images/Patent.png';
@@ -16,6 +17,12 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Projects & Achievements</h1>
         <div className="projects-grid">
+        <div className="project">
+                <a href="https://arxiv.org/abs/2510.24081" target="_blank" rel="noreferrer"><img src={ArxivPiqa} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://arxiv.org/abs/2510.24081" target="_blank" rel="noreferrer"><h2>EMNLP 2025 Paper</h2></a>
+                <p>Contributed to the collection and augmentation of the new dataset for the PIQA benchmark.</p>
+            </div>
+
             <div className="project">
                 <a href="https://devpost.com/software/garden-finance" target="_blank" rel="noreferrer"><img src={AdaHacks} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/alpnix/AdaHack2025" target="_blank" rel="noreferrer"><h2>Garden Finance</h2></a>
@@ -41,7 +48,7 @@ function Project() {
             </div>
 
             <div className="project">
-                <a href="https://arxiv.org/abs/2311.07591" target="_blank" rel="noreferrer"><img src={Arxiv} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://arxiv.org/abs/2311.07591" target="_blank" rel="noreferrer"><img src={ArxivTubitak} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://arxiv.org/abs/2311.07591" target="_blank" rel="noreferrer"><h2>Published Paper</h2></a>
                 <p>Published a paper on properly classfying middle school books using NLP and neural networks.</p>
             </div>

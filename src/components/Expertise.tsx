@@ -7,32 +7,6 @@ import '../assets/styles/Expertise.scss';
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "Node.js",
-    "Tailwind",
-    "Next.js",
-    "Django",
-    "Python",
-    "MongoDB",
-    "PostgreSQL",
-    "Postman"
-];
-
-const labelsSecond = [
-    "Python",
-    "Flask",
-    "Requests",
-    "Git",
-    "Linux",
-    "Pandas",
-    "Selenium",
-    "BeautifulSoup",
-    "RegEx"
-];
-
-const labelsThird = [
     "Python",
     "OpenAI",
     "Pinecone",
@@ -48,6 +22,35 @@ const labelsThird = [
     "Defang", 
 ];
 
+const labelsSecond = [
+    "Python",
+    "Playwright",
+    "Flask",
+    "HTTP",
+    "Rust",
+    "Git",
+    "Linux",
+    "Pandas",
+    "Selenium",
+    "BeautifulSoup",
+    "Go",
+    "RegEx"
+];
+
+const labelsThird = [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "Node.js",
+    "Tailwind",
+    "Next.js",
+    "Django",
+    "Python",
+    "MongoDB",
+    "PostgreSQL",
+    "Postman"
+];
+
 function Expertise() {
     return (
     <div className="container" id="expertise">
@@ -56,11 +59,11 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Worked on various machine learning/deep learning projects to fit the data. Currently, utilizing RAG to build agentic frameworks. I am also studying GenAI with a strong focus on building Large Language Models.</p>
+                    <h3>GenAI & LLMs</h3>
+                    <p>Built multiple retrieval (RAG) based agentic systems, and won multiple awards at hackathons. Worked on web agents automating coding, web search, etc. Research includes RL environments, post-training, and context optimization.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
+                        {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
@@ -68,8 +71,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faGear} size="3x"/>
-                    <h3>Scraping & Automation</h3>
-                    <p>I collect data from the web, test the security of online applications, and automate certain tasks from the cloud. I worked professionally for 3 years in the area using Python through tons of freelancing projects.</p>
+                    <h3>Crawling & Automation</h3>
+                    <p>I am confident in building high-scale data pipelines and collection automation. Experience with data acquisiton, annotation, and augmentation. I worked professionally for 3 years on web-based data collection through 50+ freelancing projects.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -80,11 +83,11 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
+                    <h3>Full Stack Development</h3>
                     <p>I have built multiple web applications from scratch using modern technologies such as Next and Express. I have a strong proficiency in Python and its various backend frameworks such as Django, Flask, FastAPI.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
-                        {labelsFirst.map((label, index) => (
+                        {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>

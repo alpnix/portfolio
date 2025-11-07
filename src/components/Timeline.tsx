@@ -20,10 +20,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">NLP Researcher</h3>
+            <h3 className="vertical-timeline-element-title">AI Researcher</h3>
             <h4 className="vertical-timeline-element-subtitle"><i>University of Edinburgh</i></h4>
             <p>
-              LLMs, Reinforcement Learning, Post-training, Reasoning
+              Web Agents, RL environments, Post-training
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -37,7 +37,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Software Development Engineer Intern</h3>
             <h4 className="vertical-timeline-element-subtitle"><i>Amazon</i></h4>
             <p>
-              Infrastructure, AI/ML, and Backend Systems
+              Data Pipelines, Infrastructure, and Backend Systems
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -49,7 +49,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Research Engineer</h3>
             <h4 className="vertical-timeline-element-subtitle"><i>College Crisis Initiative</i></h4>
             <p>
-              ML Infrastructure, Data Engineering, and LLMs
+              Automated Data Collection, Annotation, and Ingestion 
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -61,7 +61,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Software Engineering Intern</h3>
             <h4 className="vertical-timeline-element-subtitle"><i>Forest Systems</i></h4>
             <p>
-              FinTech, Cybersecurity, Generative AI, Full-stack Development
+              Site Speed Optimization, Cybersecurity, Generative AI
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -85,12 +85,12 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Software Engineer (Student Consultant)</h3>
             <h4 className="vertical-timeline-element-subtitle"><i>Hurt Hub@Davidson</i></h4>
             <p>
-              Web Development, Market Research, API Development
+              API/Web Development, Data Scraping, and Visualization
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2022 Jan - 2023 Aug"
+            date="2021 Sep - 2023 Aug"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -109,7 +109,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">AI Engineer Intern</h3>
             <h4 className="vertical-timeline-element-subtitle"><i>Magfi</i></h4>
             <p>
-              NLP, Databases, and Microservices
+              Deep Learning and NLP algorithms
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
