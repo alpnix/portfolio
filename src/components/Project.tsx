@@ -49,7 +49,7 @@ function Project() {
 
             <div className="project">
                 <a href="https://arxiv.org/abs/2311.07591" target="_blank" rel="noreferrer"><img src={ArxivTubitak} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://arxiv.org/abs/2311.07591" target="_blank" rel="noreferrer"><h2>Published Paper</h2></a>
+                <a href="https://arxiv.org/abs/2311.07591" target="_blank" rel="noreferrer"><h2>Published NLP Paper</h2></a>
                 <p>Published a paper on properly classfying middle school books using NLP and neural networks.</p>
             </div>
 
