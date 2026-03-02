@@ -23,7 +23,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">AI Researcher</h3>
             <h4 className="vertical-timeline-element-subtitle"><i>University of Edinburgh</i></h4>
             <p>
-              Web Agents, RL environments, Post-training
+              Context Compression, Vector Databases, and Long-Running Agents
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -34,10 +34,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Software Development Engineer Intern</h3>
+            <h3 className="vertical-timeline-element-title">(AI/ML) Software Engineering Intern</h3>
             <h4 className="vertical-timeline-element-subtitle"><i>Amazon</i></h4>
             <p>
-              Data Pipelines, Infrastructure, and Backend Systems
+              DevOps, Infrastructure, and Backend Systems
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -73,7 +73,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Teaching Assistant for CSC 372: NLP</h3>
             <h4 className="vertical-timeline-element-subtitle"><i>Davidson College</i></h4>
             <p>
-              Grading, Teaching, Office Hours (Data CATS)
+              RNNs, Transformers, and RLHF
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -109,7 +109,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">AI Engineer Intern</h3>
             <h4 className="vertical-timeline-element-subtitle"><i>Magfi</i></h4>
             <p>
-              Deep Learning and NLP algorithms
+              Deep Learning and Sentiment Analysis
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

@@ -22,7 +22,7 @@ function Main() {
             <a href="https://scholar.google.com/citations?user=Oj6Qr6YAAAAJ&hl=en" target="_blank" rel="noreferrer"><SchoolIcon/></a>
           </div>
           <h1>Alp Niksarli</h1>
-          <p>Software Engineer && Student</p>
+          <p>AI/ML Engineer && Student</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/alpnix" target="_blank" rel="noreferrer"><GitHubIcon/></a>
